@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    private readonly float _damage = 1;
+    private readonly float _damage = 2;
 
     private Health _health;
 

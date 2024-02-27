@@ -52,7 +52,7 @@ public class SmoothingBar : MonoBehaviour
 
         while(_slider.value != target)
         {
-            _slider.value = Mathf.MoveTowards(_slider.value, target, 0.001f);
+            _slider.value = Mathf.MoveTowards(_slider.value, target, 0.01f);
 
             yield return null;
         }

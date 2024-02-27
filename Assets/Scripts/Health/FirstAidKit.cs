@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FirstAidKit : MonoBehaviour
 {
-    private readonly float _amountHeal = 1;
+    private readonly float _amountHeal = 5;
 
     public float AmountHeal => _amountHeal;
 

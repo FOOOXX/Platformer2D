@@ -5,7 +5,7 @@ public class Health : MonoBehaviour
 {
     public event Action<float> HealthChanged;
 
-    private readonly float _maxValue = 100;
+    private readonly float _maxValue = 20;
 
     private float _currentValue;
 

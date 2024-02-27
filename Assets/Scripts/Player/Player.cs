@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private readonly float _damage;
+    private readonly float _damage = 3;
 
     private Wallet _wallet;
     private Health _health;
